@@ -13,17 +13,10 @@ public class Laps : MonoBehaviour
     private float lapTime = 0;
     private int lapCount = -1;
 
-    void FixedUpdate()
-    {
-        
-    }
 
     void Update()
     {
         time += Time.deltaTime;
-        Debug.Log(Time.deltaTime);
-        Debug.Log(time);
-        Debug.Log(lapTime);
 
         if (Input.GetKey("e") && timelineStarted == false)
         {

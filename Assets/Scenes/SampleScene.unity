@@ -335,7 +335,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-38098
+  m_Name: pb_Mesh24282
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1006,6 +1006,7 @@ Transform:
   m_Children:
   - {fileID: 363322212}
   - {fileID: 459953453}
+  - {fileID: 1138088889}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1804,7 +1805,7 @@ GameObject:
   - component: {fileID: 1138088888}
   - component: {fileID: 1138088887}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: LapText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1952,16 +1953,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1138088886}
   m_LocalRotation: {x: 0.389928, y: -0.5898781, z: 0.389928, w: 0.5898781}
-  m_LocalPosition: {x: 0, y: 0, z: 91.17}
+  m_LocalPosition: {x: 0, y: 0, z: 101.09958}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 411942805}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 66.932, y: -90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 48.968998, y: 3.864405}
+  m_AnchoredPosition: {x: 61.318428, y: -0.4955852}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1231702616
@@ -1979,7 +1980,7 @@ GameObject:
   - component: {fileID: 1231702618}
   - component: {fileID: 1231702617}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: LapDisplayStand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2541,13 +2542,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1231702616}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44.522556, y: 0.7547989, z: 98.2}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 56.871986, y: -3.6051908, z: 108.12958}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1265754864}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1253418491
 GameObject:
@@ -2660,6 +2661,7 @@ Transform:
   - {fileID: 210472150}
   - {fileID: 1290452368}
   - {fileID: 2035490443}
+  - {fileID: 1231702622}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2772,6 +2774,8 @@ GameObject:
   - component: {fileID: 1546602600}
   - component: {fileID: 1546602599}
   - component: {fileID: 1546602598}
+  - component: {fileID: 1546602602}
+  - component: {fileID: 1546602601}
   m_Layer: 0
   m_Name: Billboard
   m_TagString: Untagged
@@ -2857,6 +2861,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1546602596}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1546602601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546602596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b806b9ed01d59d40ab456f8b0d41fa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1546602602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546602596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 195e6f31d6021b34592fafed269e7bd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1811311298
 GameObject:
   m_ObjectHideFlags: 0
